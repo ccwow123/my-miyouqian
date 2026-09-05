@@ -17,8 +17,8 @@ on:
         required: false
         type: string
   schedule:
-    # 默认每天北京时间 10:20 执行。修改时间时只改 cron 即可。
-    - cron: "20 2 * * *"
+    # 默认每天北京时间 11:20 执行。修改时间时只改 cron 即可。
+    - cron: "20 3 * * *"
       # timezone: "Asia/Shanghai"
 
 permissions:
